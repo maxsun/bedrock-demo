@@ -1,0 +1,51 @@
+.itemgroup {
+    padding: 5px;
+}
+
+.itemgroup:not(:last-child) {
+    border-bottom: 1px solid gainsboro;
+}
+
+.itemgroupTitle {
+    background-color: #ffffff;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.itemgroupTitle:hover {
+    color: #2822D3;
+    cursor: pointer;
+}
+
+.item {
+    font-weight: normal;
+    padding: 3px;
+    list-style-type: none;
+    overflow: scroll;
+    white-space: nowrap;
+}
+
+.item button {
+    border: none;
+    background-color: inherit;
+    font-size: 14px;
+}
+
+.item button:hover {
+    cursor: pointer;
+}
+
+.item img {
+    padding: 3px;
+    border: solid 1px gainsboro;
+    margin-right: 10px;
+    height: 30px;
+    width: auto;
+    vertical-align: middle;
+}
+
+.item:hover {
+    cursor: pointer;
+    background-color: #EEEDFC;
+}
